@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Simples</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora</h1>
+    </header>
+    <main>
+        <h2>digite os valores</h2>
+        <br>
+        <div>
+            <p>Primeiro Valor :</p>
+            <input type="number" name="numero" id="num1">
+        </div> 
+       
+        <br>
+
+        <div>
+            <p>Segundo valor :</p>
+            <input type="number" name="numero" id="num2">
+        </div>
+        <br>
+        <h2>Selecione a operação</h2>
+        <br>
+        <div id="botoes2">
+            <div>
+                <p>Adição 
+                </p>
+                <input type="radio" name="operacao" id="adi">
+            </div>
+            <div>
+                <p> Subtração </p>
+                <input type="radio" name="operacao" id="sub">
+            </div>
+            <div>
+                <p> Multipicação </p>
+                <input type="radio" name="operacao" id="multi">
+            </div>
+            <div>
+                <p> Divisão </p>
+                <input type="radio" name="operacao" id="divi">
+            </div>
+            
+
+        </div>
+        <br>
+        <div>
+            
+            <input type="button" value="Calcular" class="botao" onclick="calcular()">
+        </div>
+        <br>
+        <div id="res">
+            Indique os dados para gerar o resultado !
+        </div>
+        
+        
+
+    </main>
+    <br>
+    <footer>
+        <p><strong>&reg;Oneon Junior</strong></p>
+    </footer>
+
+</body>
+<script src="script.js"></script>
+</html>
